@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+}
+
+h2, h1, p {
+  color: #080707;
+  font-size: 24px;
+}
+
+h1 {
+  margin: 20px auto;
+}
+
+.corpo {
+  background-color: rgba(212, 209, 230, 0.8823529412);
+  width: 400px;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 15px auto;
+  padding: 25px;
+}
+.corpo .bt1, .corpo .bt2, .corpo .bt3, .corpo .btn_calc {
+  background-color: rgba(15, 4, 43, 0.8509803922);
+  width: 315px;
+  height: 80px;
+  text-align: center;
+  padding: 25px;
+  border-radius: 20px;
+  color: white;
+  margin: 18px;
+  cursor: pointer;
+}
+.corpo .input_1, .corpo .text_resultado {
+  background-color: transparent;
+  width: 310px;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #323232;
+  text-align: left;
+  color: black;
+  font-size: 28px;
+}
+.corpo input:focus {
+  outline: none;
+}
+.corpo .input_1::placeholder {
+  font-size: 16px;
+}
+.corpo .label1 {
+  font-size: 18px;
+  color: rgba(3, 3, 3, 0.6784313725);
+}
+.corpo label, .corpo input {
+  display: block;
+  width: 310px;
+  text-align: left;
+}
+.corpo .btn_calc {
+  background-color: #19d13b;
+}
+.corpo .btn_r, .corpo .btn_v, .corpo .btn_i, .corpo .btn_calc, .corpo .btn_limpa, .corpo .btn_home {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.corpo .btn_rodape {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: auto;
+}
+.corpo .btn_rodape .bt_home, .corpo .btn_rodape .bt_limpa {
+  margin: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: #3017e8;
+  width: 155px;
+  height: 80px;
+  text-align: center;
+  padding: 25px;
+  border-radius: 20px;
+}
+.corpo .btn_rodape .bt_home .btnLimpa, .corpo .btn_rodape .bt_limpa .btnLimpa {
+  background-color: #3017e8;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+}
+.corpo a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */

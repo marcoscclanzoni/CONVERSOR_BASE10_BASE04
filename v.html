@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculadoraJs_Tensã<option value=""></option>
+    </title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+    <link rel="shortcut icon" href="img/icone.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body>
+    <!-- <h1>Calculo de Tensão</h1> -->
+
+
+    <div class="corpo">
+        <h1>CALCULADORA DE TENSÃO</h1>
+        <label for="input_i">Valor Corrente :</label>
+        <input id="input_i" class="input_1" name="textinput" type="number" placeholder="000.000">
+        <label for="input_r">Valor Resistência :</label>
+        <input id="input_r" class="input_1" name="textinput" type="number" placeholder="000.000">
+        <button class="btn_calc" onclick="calculo_v()">Calcular</button>
+
+        <label for="text_resultado">Resultado em Volts :</label>
+        <p class="text_resultado" id="calculo_v"></p>
+
+        <div class="btn_rodape">
+            <div class="bt_home">
+                <a class="btn_home" href="index.html">HOME</a>
+            </div>
+            <div class="bt_limpa">
+                <button class="btnLimpa" onclick="limpar_v()">Limpar</button>
+                <!-- <a class="btn_limpa" href ="index.html">LIMPAR</a> -->
+
+            </div>
+
+        </div>
+
+        <a href="http://www.lanzautomacao.com.br">Desenvolvido Lanz Automação</a>
+    </div>
+</body>
+
+</html>
