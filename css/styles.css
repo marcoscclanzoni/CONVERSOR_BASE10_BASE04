@@ -9,6 +9,7 @@
 h2, h1, p {
   color: #080707;
   font-size: 24px;
+  text-align: center;
 }
 
 h1 {
@@ -98,6 +99,13 @@ h1 {
 }
 .corpo a {
   text-decoration: none;
+}
+.corpo .sobre {
+  color: red;
+  font-size: 20px;
+  background-color: blue;
+  padding: 15px;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
